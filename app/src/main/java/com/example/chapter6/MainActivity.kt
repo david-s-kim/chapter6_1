@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity(), WordAdapter.ItemClickListener {
 
 
     private fun initRecyclerView() {
-
         wordAdapter = WordAdapter(mutableListOf(), this)
         binding.wordRecyclerView.apply {
             adapter = wordAdapter
